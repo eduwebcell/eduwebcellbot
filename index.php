@@ -19,8 +19,8 @@
 */
 require 'vendor/autoload.php';
 
-$client = new Zelenin\Telegram\Bot\Api(''); // Set your access token
-$url = ''; // URL RSS feed
+$client = new Zelenin\Telegram\Bot\Api('168971053:AAE-1o8noXe6A3-9EsvIc9a_vBz2tkOJ_Gs'); // Set your access token
+$url = 'http://eduwebcell.blogspot.com.br/'; // URL RSS feed
 $update = json_decode(file_get_contents('php://input'));
 
 //your app
